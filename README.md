@@ -9,5 +9,9 @@ This repository contains tools for working with R (v4.5.2) in RStudio (v0.18.0),
 
 ## Session and package information
 
+### Specific analysis packages
+
 - `Seurat` (v5.4.0): [Hao, Y., *et al.*, (2024)](https://www.nature.com/articles/s41587-023-01767-y#Abs1)
 - `monocle` (v2.38.0): [Trapnell, C., *et al.* (2014)](https://www.nature.com/articles/nbt.2859) & [Qiu, X., *et al.*, (2017)](https://www.nature.com/articles/nmeth.4402)
+
+### General R language packages
