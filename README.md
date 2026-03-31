@@ -6,6 +6,7 @@ This repository contains tools for working with R (v4.5.2) in RStudio (v0.18.0),
 
 - **single-cell**: Contains tools for single-cell RNA sequencing analysis, mainly based on [Seurat](https://satijalab.org/seurat/) pipeline.
   - *seurat_scRNAseq_analysis_tool.R*: Basic pipeline for Seurat object construction from a count matrix (obtained via Fluent Illumina technology), quality control, preprocessing and clustering, with basic visualization. Preprocessing, scaling and normalization using the SCTransform pipeline (v0.4.3) and Seurat (v5.4.0) base functions.
+  -  *seurat_integration_tool.R*: Dataset integration using Seurat anchor based integration method.
   - *monocle2_pseudotime_tool.R*: Pseudotime trajectory analysis for single-cell RNA sequencing data previously processed and annotated with Seurat using Monocle 2 package version (v2.38.0).
 
 ## Session and package information
