@@ -16,7 +16,8 @@ This repository contains tools for working with R (v4.5.2) in RStudio (v0.18.0),
 - `Seurat` (v5.4.0): [Hao, Y., *et al.*, (2024)](https://www.nature.com/articles/s41587-023-01767-y#Abs1)
 - `monocle` (v2.38.0): [Trapnell, C., *et al.* (2014)](https://www.nature.com/articles/nbt.2859) & [Qiu, X., *et al.*, (2017)](https://www.nature.com/articles/nmeth.4402)
 - `sctranform` (v0.4.3): [Hafemeister, C. & Satija, R., (2019)](https://doi.org/10.1186/s13059-019-1874-1), [Choudhary, S. & Satija, R., (2022)](https://doi.org/10.1186/s13059-021-02584-9) & [CRAN package](https://doi.org/10.32614/CRAN.package.sctransform)
-- `glmGamPoi` (v1.22.0): [Ahlmann-Eltze, C. & Huber, W., (2020)](https://doi.org/10.1093/bioinformatics/btaa1009) & [Bioconductor Package](https://doi.org/doi:10.18129/B9.bioc.glmGamPoi) 
+- `glmGamPoi` (v1.22.0): [Ahlmann-Eltze, C. & Huber, W., (2020)](https://doi.org/10.1093/bioinformatics/btaa1009) & [Bioconductor Package](https://doi.org/doi:10.18129/B9.bioc.glmGamPoi)
+- `biomaRt` (v2.66.2): [Durnick, S., *et al.*, (2005)](https://doi.org/10.1093/bioinformatics/bti525), [Durnick, S., *et al.*, (2009)](https://doi.org/10.1038/nprot.2009.97) & [Bioconductor Package](https://doi.org/doi:10.18129/B9.bioc.biomaRt)
 
 ### General R language packages
 
