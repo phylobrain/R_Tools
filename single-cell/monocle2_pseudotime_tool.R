@@ -106,7 +106,7 @@ expressed_genes <- row.names(subset(fData(cds),
 # STEP 1: DE genes for cell progress
 diff_gene_test_res <- differentialGeneTest(cds[expressed_genes,],
                                            fullModelFormulaStr = "~Cluster_Labels") # variable by which DE should be made, specify "~1" for all vs all
-ordering_genes <- row.names(subset(diff_test_res, qval < 0.01)) # gene ids to be used in the ordering
+ordering_genes <- row.names(subset(diff_gene_test_res, qval < 0.01)) # gene ids to be used in the ordering
 cds <- setOrderingFilter(cds, ordering_genes) # set the ordering genes in the cds object
 plot_ordering_genes(cds)
 
