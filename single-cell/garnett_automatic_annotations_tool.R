@@ -3,7 +3,7 @@
 # Load packages
 library(org.Gg.eg.db) # db for chicken
 library(garnett)
-library(ggplot)
+library(ggplot2)
 
 # LOAD THE DATA
 
