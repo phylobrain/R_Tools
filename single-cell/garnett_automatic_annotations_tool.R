@@ -17,8 +17,7 @@ cds <- estimateSizeFactors(cds)
 # BUILD AND TRAIN THE CLASSIFIER 
 
 # Construct the marker file and check the markers
-marker_file_path <- system.file("extdata", "markers.txt",
-                                package = "garnett")
+marker_file_path <- file.choose()
 
 marker_check <- check_markers(cds, marker_file_path,
                               db=org.Gg.eg.db,
