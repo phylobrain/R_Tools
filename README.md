@@ -6,6 +6,7 @@ This repository contains tools for working with R (v4.5.2) in RStudio (v0.18.0),
 
 - **single-cell**: Contains tools for single-cell RNA sequencing analysis, mainly based on [Seurat](https://satijalab.org/seurat/) pipeline.
   - *clustree_tool.R*: Cluster resolution analysis over Seurat clustered objects using the `clustree` package (v0.5.1).
+  - *garnett_automatic_annotations_tool.R*: Build, train and classifier a Garnett regression-based classifier with a marker file for automation of single-cell annotations. 
   - *monocle2_pseudotime_tool.R*: Pseudotime trajectory analysis for single-cell RNA sequencing data previously processed and annotated with Seurat using Monocle 2 package version (v2.38.0).
   - *seurat_QualityControl_tool.R*: Visualization options and filtering estrategies for optimal QC threshold election.
   - *seurat_biomart_orthology_tool.R*: One to one orthologue extraction and filtering for cross-species comparations using the `biomaRt`package (v2.66.2) with [Ensembl](https://www.ensembl.org/index.html) gene annotations.
@@ -24,6 +25,7 @@ This repository contains tools for working with R (v4.5.2) in RStudio (v0.18.0),
 - `glmGamPoi` (v1.22.0): [Ahlmann-Eltze, C. & Huber, W., (2020)](https://doi.org/10.1093/bioinformatics/btaa1009) & [Bioconductor Package](https://doi.org/doi:10.18129/B9.bioc.glmGamPoi)
 - `biomaRt` (v2.66.2): [Durnick, S., *et al.*, (2005)](https://doi.org/10.1093/bioinformatics/bti525), [Durnick, S., *et al.*, (2009)](https://doi.org/10.1038/nprot.2009.97) & [Bioconductor Package](https://doi.org/doi:10.18129/B9.bioc.biomaRt)
 - `clustree`(v0.5.1): [Zappia, L. & Oshlack, A., (2018)](https://doi.org/10.1093/gigascience/giy083)
+- `garnett` (v0.1.24): [Pliner, H. A. *et al.*, (2019)](https://doi.org/10.1038/s41592-019-0535-3)
 
 ### General R language packages
 
