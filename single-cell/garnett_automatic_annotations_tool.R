@@ -52,6 +52,10 @@ cds <- classify_cells(cds, classifier,
                       cluster_extend = TRUE,
                       cds_gene_id_type = "SYMBOL")
 
-# Plot the classification results
-qplot(umap_1, umap_2, color = cell_type, data = pData(cds))    
-qplot(umap_1, umap_2, color = cluster_ext_type, data = pData(cds))
+# Look for the classifications
+head(cds@phenoData@data$cell_type)
+table(cds@phenoData@data$cell_type)
+
+# Transfer to Seurat
+seurat_object@meta.data$garnett_cell_type <- cds@phenoData@data$cell_type
+DimPlot(seurat_object, group.by="garnett_cell_type")
