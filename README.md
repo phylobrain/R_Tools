@@ -8,6 +8,7 @@ This repository contains tools for working with R (v4.5.2) in RStudio (v0.18.0),
   - *clustree_tool.R*: Cluster resolution analysis over Seurat clustered objects using the `clustree` package (v0.5.1).
   - *garnett_automatic_annotations_tool.R*: Build, train and classifier a Garnett regression-based classifier with a marker file for automation of single-cell annotations. 
   - *monocle2_pseudotime_tool.R*: Pseudotime trajectory analysis for single-cell RNA sequencing data previously processed and annotated with Seurat using Monocle 2 package version (v2.38.0).
+  - *monocle3_tool.R*: Pseudotime trajectory analysis with the latest version of Monocle package: monocle3 (v1.4.27).
   - *seurat_QualityControl_tool.R*: Visualization options and filtering estrategies for optimal QC threshold election.
   - *seurat_biomart_orthology_tool.R*: One to one orthologue extraction and filtering for cross-species comparations using the `biomaRt`package (v2.66.2) with [Ensembl](https://www.ensembl.org/index.html) gene annotations.
   - *seurat_integration_tool.R*: Dataset integration using Seurat anchor based integration method.
@@ -21,6 +22,7 @@ This repository contains tools for working with R (v4.5.2) in RStudio (v0.18.0),
 
 - `Seurat` (v5.4.0): [Hao, Y., *et al.*, (2024)](https://www.nature.com/articles/s41587-023-01767-y#Abs1)
 - `monocle` (v2.38.0): [Trapnell, C., *et al.* (2014)](https://www.nature.com/articles/nbt.2859) & [Qiu, X., *et al.*, (2017)](https://www.nature.com/articles/nmeth.4402)
+- `monocle3` (v1.4.27): [Trapnell, C., *et al.* (2014)](https://www.nature.com/articles/nbt.2859) & [Qiu, X., *et al.*, (2017)](https://www.nature.com/articles/nmeth.4402)
 - `sctranform` (v0.4.3): [Hafemeister, C. & Satija, R., (2019)](https://doi.org/10.1186/s13059-019-1874-1), [Choudhary, S. & Satija, R., (2022)](https://doi.org/10.1186/s13059-021-02584-9) & [CRAN package](https://doi.org/10.32614/CRAN.package.sctransform)
 - `glmGamPoi` (v1.22.0): [Ahlmann-Eltze, C. & Huber, W., (2020)](https://doi.org/10.1093/bioinformatics/btaa1009) & [Bioconductor Package](https://doi.org/doi:10.18129/B9.bioc.glmGamPoi)
 - `biomaRt` (v2.66.2): [Durnick, S., *et al.*, (2005)](https://doi.org/10.1093/bioinformatics/bti525), [Durnick, S., *et al.*, (2009)](https://doi.org/10.1038/nprot.2009.97) & [Bioconductor Package](https://doi.org/doi:10.18129/B9.bioc.biomaRt)
@@ -35,3 +37,4 @@ This repository contains tools for working with R (v4.5.2) in RStudio (v0.18.0),
 - `tibble` (v1.6.0): [Müller, K. & Wickham, H. (2025)](https://tibble.tidyverse.org/) & [CRAN package](https://doi.org/10.32614/CRAN.package.tibble)
 - `patchwork`(v1.3.2): [Pedersen, T. (2025)](https://patchwork.data-imaginist.com/) & [CRAN package](https://doi.org/10.32614/CRAN.package.patchwork)
 - `paletteer` (v1.7.0): [Hvitfeldt, E. (2021)](https://github.com/EmilHvitfeldt/paletteer), [paletteer official website](https://emilhvitfeldt.github.io/paletteer/index.html) & [CRAN package](https://doi.org/10.32614/CRAN.package.paletteer)
+- `SeuratWrappers` (v0.4.0)
