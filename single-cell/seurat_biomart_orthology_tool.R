@@ -22,6 +22,13 @@ datasets[grep('mmusculus', datasets[,1]),]
 chicken <- useMart("ensembl", dataset = "ggallus_gene_ensembl")
 mouse <- useMart("ensembl", dataset = "mmusculus_gene_ensembl")
 
+# Connect to anterior version if useMart rises error of connection
+chicken <- useEnsembl(biomart = "genes", dataset = "ggallus_gene_ensembl",
+                      version = 115)
+
+mouse <- useEnsembl(biomart = "genes", dataset = "mmusculus_gene_ensembl",
+                    version = 115)
+
 # List chicken (species1) genes with mouse homologues
 orth.gallus <- getBM(
   attributes = c("external_gene_name", "ensembl_gene_id", "mmusculus_homolog_ensembl_gene", "mmusculus_homolog_orthology_type", "mmusculus_homolog_perc_id", "mmusculus_homolog_perc_id_r1"),
