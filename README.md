@@ -4,6 +4,9 @@ This repository contains tools for working with R (v4.5.2) in RStudio (v0.18.0),
 
 ## Contents
 
+- **general**: General tools for data analysis in R.
+  - *downsampling_tool.R*: Stratified downsampling without replacement mantaining the proportions for a given variable.
+    
 - **single-cell**: Contains tools for single-cell RNA sequencing analysis, mainly based on [Seurat](https://satijalab.org/seurat/) pipeline.
   - *clustree_tool.R*: Cluster resolution analysis over Seurat clustered objects using the `clustree` package (v0.5.1).
   - *garnett_automatic_annotations_tool.R*: Build, train and classifier a Garnett regression-based classifier with a marker file for automation of single-cell annotations. 
@@ -13,9 +16,10 @@ This repository contains tools for working with R (v4.5.2) in RStudio (v0.18.0),
   - *seurat_biomart_orthology_tool.R*: One to one orthologue extraction and filtering for cross-species comparations using the `biomaRt`package (v2.66.2) with [Ensembl](https://www.ensembl.org/index.html) gene annotations.
   - *seurat_integration_tool.R*: Dataset integration using Seurat anchor based integration method.
   - *seurat_scRNAseq_analysis_tool.R*: Basic pipeline for Seurat object construction from a count matrix (obtained via Fluent Illumina technology), quality control, preprocessing and clustering, with basic visualization. Preprocessing, scaling and normalization using the SCTransform pipeline (v0.4.3) and Seurat (v5.4.0) base functions.
-  
-  
 
+- **visualization_templates**: Templates for visualization or publication ready figures.
+  - *annotations_UMAP_visualization_template.R*: Publication ready template for UMAP visualization with annotations and selected colors.
+  
 ## Session and package information
 
 ### Specific analysis packages
