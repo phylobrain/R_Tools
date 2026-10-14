@@ -19,6 +19,7 @@ This repository contains tools for working with R (v4.5.2) in RStudio (v0.18.0),
 
 - **visualization_templates**: Templates for visualization or publication ready figures.
   - *annotations_UMAP_visualization_template.R*: Publication ready template for UMAP visualization with annotations and selected colors.
+  - *species_proportion_barplot_template.R*: Template for inter-species comparison of cluster or cell type proportion in a barplot with species percentage contribution for each group in the grouping variable.
   
 ## Session and package information
 
