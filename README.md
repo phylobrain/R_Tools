@@ -15,6 +15,7 @@ This repository contains tools for working with R (v4.5.2) in RStudio (v0.18.0),
   - *seurat_QualityControl_tool.R*: Visualization options and filtering estrategies for optimal QC threshold election.
   - *seurat_biomart_orthology_tool.R*: One to one orthologue extraction and filtering for cross-species comparations using the `biomaRt`package (v2.66.2) with [Ensembl](https://www.ensembl.org/index.html) gene annotations.
   - *seurat_integration_tool.R*: Dataset integration using Seurat anchor based integration method.
+  - *seurat_label_transfer_tool.R*: Label transfer from reference to query datasets and evaluation of the predicted labels.
   - *seurat_scRNAseq_analysis_tool.R*: Basic pipeline for Seurat object construction from a count matrix (obtained via Fluent Illumina technology), quality control, preprocessing and clustering, with basic visualization. Preprocessing, scaling and normalization using the SCTransform pipeline (v0.4.3) and Seurat (v5.4.0) base functions.
 
 - **visualization_templates**: Templates for visualization or publication ready figures.
